@@ -1,0 +1,621 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+ 
+a{
+
+    text-decoration: none;
+}
+
+/* row one this is your land rover in creation new editor  */
+
+#row_one .col_one{
+   
+   font-family: Calibri;
+    height: 63px;
+    width: 100%;
+	/* position: sticky;
+	position: "-webkit-sticky"; */
+}
+
+#row_one .col_one .nav .left{
+
+    
+    display: flex;
+    justify-content: space-around;
+ 
+}
+#row_one .col_one .nav.left a{
+    float: left;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+/* rows in the box right*/
+
+#box .container
+{
+  
+    height: 70vh;
+    width: 100%;
+    background-image: url('../image/desktop.jpg') 
+}
+    
+ .text{
+
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+}
+.text p{
+    color: aliceblue;
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    font-family: Calibri;
+}
+
+
+
+
+.mySlides{
+    display: none;
+}
+
+.cont{
+
+    background-color: rgb(167, 103, 103);
+    font-family: Calibri;
+    height: 180px;
+    width: 270px;
+    font-size: 11px;
+    font-family: Arial,  sans-serif;
+    padding: 30px;
+    margin-left: 140px;
+
+} 
+
+ .cont h2{
+    font-size: 800;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+  
+
+}
+.lg-btn{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 20px;
+    padding: 10px auto;
+    width: 200px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    border: none;
+}
+
+
+
+ 
+/* row four inside  section sidde */
+
+
+ #row_four {
+
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 120px;
+    height: 33.33vh;
+    width: 100vw;
+
+}
+ .first{
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+ .second{
+   
+    height: 100px;
+    width: 100px;
+    margin-top: 60px;
+    
+}
+.thre{
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 60px;
+    
+}
+.fou{
+   
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 90px ;
+}
+
+#row_four p{
+
+    padding: 20px 2px 3px 3px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'sans-serif ';
+
+} 
+
+/* MENU IS ENTRE CONTAINER AND COL_ONE  */
+
+
+
+/* contain ,,, box ,,, container  */
+
+
+.contain{
+
+    background-color:#D8D8D8;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    font-weight: lighter;
+
+}
+
+.contain h1
+{
+    text-align: center;
+    margin-top: 80px;
+       
+}
+
+
+ .one{
+
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    margin-top: 80px;
+
+}
+
+ .one h4 
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.one p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: dimgrey;
+    
+}
+.one ul li{
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/*  row two start in css box container   */
+
+.box{
+
+    background-color:#D8D8D8;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+
+}
+
+ .two{
+
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    margin-top: 40px;
+
+}
+
+ .two h4 
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.two p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: dimgrey;
+    
+}
+.two ul li{
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* final row and colume in css last   */
+
+.container{
+
+    background-color:#D8D8D8;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+
+.vertical{
+    
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    margin-top: 70px;
+
+}
+
+ .vertical h4 
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.vertical p{
+  
+    
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: dimgrey;
+    
+}
+.vertical ul li{
+   
+    
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* our family is defender is  nowwww three row in the row */
+
+
+.defend h1{
+     
+    font-family: monospace;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+     text-align: center;
+
+}
+
+.defend{
+
+    background-color:#FFFFFF;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.defender{
+
+        
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    margin-top: 70px;
+
+}
+
+.defender h4 
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.defender p{
+  
+    
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: dimgrey;
+    
+}
+.defender ul li{
+   
+    
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* just four row in the coloume in range rover function  */
+
+
+
+.sin{
+
+    background-color: #71706E;
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sin h1{
+     
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+     text-align: center;
+     
+
+}
+
+.function
+{
+
+        
+    height: 340px;
+    width: 280px;
+    float:left;
+    margin: 50px;
+    margin-top: 70px;
+
+}
+
+.function h4 
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.function p{
+  
+    
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.function ul li{
+   
+    
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+/* this new section in row two only  TWO IMAGES ONLLY   */
+
+
+.rover{
+
+  
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.rover h1{
+     
+    font-family: monospace;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-top: 60px;
+     text-align: center;
+     
+
+}
+
+.range
+{
+
+        
+    height: 400px;
+    width: 640px;
+    float:left;
+    margin: 50px;
+    margin-top: 70px;
+
+}
+
+.range h4 
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+
+.range p{
+  
+    
+    margin-top: 10px;
+    font-family: sans-serif;
+    
+    
+}
+.range  ul li{
+   
+    
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+/* background images in the white box   */
+
+
+ .img-5{
+
+    background-image: url("../image/deal.jpg");
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    
+
+}
+.content{
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+
+}
+.written{
+    height: 300px;
+    width: 400px;
+
+   background-color: #fff;
+   border-radius: 20px solid;
+    margin-left: 0px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+/* button function in the url images  */
+
+.written h1{
+   padding: 30px;
+}
+
+.written p{
+
+padding: 10px;
+font-style: normal;
+
+
+}
+
+.button{
+
+    background-color: black;
+    
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 10px;
+
+}
+
+/* /* footer in the ul li postion  */
+
+
+.foot{
+
+
+    background-color:#484D51;
+    height:50%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: justify;
+    flex-direction: row ;
+    
+   
+}
+
+.rowe{
+    font-size: 12px;
+    margin-top: 30px;
+     line-height: 30px;
+   padding-top: 10px;
+}
+
+.rows{
+    font-size: 12px;
+    margin-top: 30px;
+     line-height: 30px;  
+   padding-top: 10px;
+}
+
+.rowt{
+    font-size: 12px;
+    margin-top: 30px;
+     line-height: 30px;
+   padding-top: 10px;
+}
+.china a{
+    font-size: 12px;
+    margin-top: 30px;
+     line-height: 30px;
+   padding-top: 10px;
+   margin-top: 10px;
+
+}
+
+.china a img{
+
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+
+/*  hover section  */
+
+.china a:hover{
+
+   color:#EF5B0C;
+
+}
+
+/* single line in text  */
+
+.hr{
+    height: 43px;
+    width: 100%;
+   padding: 19px;
+}
+
+.hr ul li{
+    float: left;
+    padding: 5px 10px 5px 15px;
+   
+
+}
+
+/* last meeting in land rover  */
+
+.Jaguar p{
+
+   font-size: 13px;
+   margin-left: 30px;
+   color: #71706E;
+}
+
